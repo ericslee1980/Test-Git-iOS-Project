@@ -21,6 +21,7 @@
 		11CD544419823A36003A6B8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CD542619823A36003A6B8A /* UIKit.framework */; };
 		11CD544C19823A36003A6B8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11CD544A19823A36003A6B8A /* InfoPlist.strings */; };
 		11CD544E19823A36003A6B8A /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD544D19823A36003A6B8A /* Git_TestTests.m */; };
+		11CD545919823DD9003A6B8A /* ESTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD545819823DD9003A6B8A /* ESTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		11CD544919823A36003A6B8A /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		11CD544B19823A36003A6B8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		11CD544D19823A36003A6B8A /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		11CD545719823DD9003A6B8A /* ESTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTest.h; sourceTree = "<group>"; };
+		11CD545819823DD9003A6B8A /* ESTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				11CD543419823A36003A6B8A /* Main.storyboard */,
 				11CD543719823A36003A6B8A /* ESViewController.h */,
 				11CD543819823A36003A6B8A /* ESViewController.m */,
+				11CD545719823DD9003A6B8A /* ESTest.h */,
+				11CD545819823DD9003A6B8A /* ESTest.m */,
 				11CD543A19823A36003A6B8A /* Images.xcassets */,
 				11CD542919823A36003A6B8A /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				11CD543919823A36003A6B8A /* ESViewController.m in Sources */,
 				11CD543319823A36003A6B8A /* ESAppDelegate.m in Sources */,
 				11CD542F19823A36003A6B8A /* main.m in Sources */,
+				11CD545919823DD9003A6B8A /* ESTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
